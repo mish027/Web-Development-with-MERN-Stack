@@ -49,8 +49,8 @@ Protocol:
             >> Client/Web Page ------------(uName & uPwd) -----------> Instagram Server (credentials are sent through the network -> 3rd party who watches communication btw client and servers they can easily get these credentials and hack/misuse our apps Bank/apps inorder to avoid this, https->data tranferred will be secure)
             educational sites public -> http is okay
             >> SSL certification (Secure Socket Layer Certification)
-            ![alt text](<SSL.png>)
-            
+            ![alt text](<images/SSL.pngSSL.png>)
+
 
 
 
