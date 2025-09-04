@@ -38,19 +38,21 @@ URL (Uniform Resource Locator)
     FullStack: Path/Location  
 
 Protocol:  
-    - Set of rules/instructions
-        http: Hyper Text Transfer Protocol
-        https: Hyper text Transfer Protocol Secure 
-        tcp: Transmission Control Protocol 
-        udp: User Datagram Protocol 
-        smtp: Simple Mail Transfer Protocol  (gmail if no subject, alert)
-        ftp: File Transfer Protocol (same file names not allowed)
+    - Set of rules/instructions  
+        http: Hyper Text Transfer Protocol  
+        https: Hyper text Transfer Protocol Secure    
+        tcp: Transmission Control Protocol  
+        udp: User Datagram Protocol  
+        smtp: Simple Mail Transfer Protocol  (gmail if no subject, alert)  
+        ftp: File Transfer Protocol (same file names not allowed)  
         ip: Internet Protocol (ipv4 & ipv6) (smart AC -> ip address)
             >> Client/Web Page ------------(uName & uPwd) -----------> Instagram Server (credentials are sent through the network -> 3rd party who watches communication btw client and servers they can easily get these credentials and hack/misuse our apps Bank/apps inorder to avoid this, https->data tranferred will be secure)
             educational sites public -> http is okay
             >> SSL certification (Secure Socket Layer Certification)
             ![alt text](<images/SSL.png>)
 
+ Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
+ Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay  
 
 
 
