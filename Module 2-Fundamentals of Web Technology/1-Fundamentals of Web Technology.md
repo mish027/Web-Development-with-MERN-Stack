@@ -37,7 +37,7 @@ URL (Uniform Resource Locator)
     .edu: TLD (Top Level Domain)  
     FullStack: Path/Location  
 
-Protocol:  
+### Protocol:  
     - Set of rules/instructions  
         http: Hyper Text Transfer Protocol  
         https: Hyper text Transfer Protocol Secure    
@@ -51,8 +51,30 @@ Protocol:
             >> SSL certification (Secure Socket Layer Certification)
             ![alt text](<images/SSL.png>)
 
- Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
- Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay  
+-Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
+- Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay  
+ -https://meet.google.com/landing  meet->subdomain, google->maindomain  
+ -https://aws.amazon.com/free aws->subdomain, amazon->maindomain  
+
+#### TLD (Top Level Domain)  
+Amazon.uk  
+Amazon.in  
+Amazon.org  
+Amazon.in  
+Amazon.com  
+Amazon.edu  
+
+
+### Offline editors
+1. Notepad
+2. Notepad++
+3. Sublime
+4. Open Brackets
+5. VS Code
+
+### Online Editors
+1. CodeSpace
+2. CodeSandbox
 
 
 
