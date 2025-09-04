@@ -1,15 +1,15 @@
 Cntrl + Shift +V for markdown preview
 
-Git >> Version Control  
+## Git >> Version Control  
     v1  
     v2  
     v3  
-new v4  
+    new v4  
 
- -It is distributed (on Cloud)  
- -Collaboration  
- -Tracing Changes  
- -Recovery  
+    -It is distributed (on Cloud)  
+    -Collaboration  
+    -Tracing Changes  
+    -Recovery  
 
 https://git-scm.com/downloads
 
@@ -17,7 +17,7 @@ https://git-scm.com/downloads
 git config --global user.name " "  
 git config --global user.email " "  
 
-### Mandatory Commands:  
+## Mandatory Commands:  
 git init  
 git remote add origin https://github.com/mish027/  Web-Development-with-MERN-Stack.git  
 git pull origin main  
