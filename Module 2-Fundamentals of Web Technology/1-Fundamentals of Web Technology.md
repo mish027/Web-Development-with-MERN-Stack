@@ -37,8 +37,8 @@ URL (Uniform Resource Locator)
     .edu: TLD (Top Level Domain)  
     FullStack: Path/Location  
 
-### Protocol:  
-    - Set of rules/instructions  
+#### Protocol:  
+    Set of rules/instructions  
         http: Hyper Text Transfer Protocol  
         https: Hyper text Transfer Protocol Secure    
         tcp: Transmission Control Protocol  
@@ -46,15 +46,18 @@ URL (Uniform Resource Locator)
         smtp: Simple Mail Transfer Protocol  (gmail if no subject, alert)  
         ftp: File Transfer Protocol (same file names not allowed)  
         ip: Internet Protocol (ipv4 & ipv6) (smart AC -> ip address)
-            >> Client/Web Page ------------(uName & uPwd) -----------> Instagram Server (credentials are sent through the network -> 3rd party who watches communication btw client and servers they can easily get these credentials and hack/misuse our apps Bank/apps inorder to avoid this, https->data tranferred will be secure)
-            educational sites public -> http is okay
-            >> SSL certification (Secure Socket Layer Certification)
+            -> Client/Web Page ------------(uName & uPwd) -----------> Instagram Server (credentials are sent through the network)  
+            -> 3rd party who watches communication btw client and servers they can easily get these credentials and hack misuse our apps Bank/apps.  
+            Inorder to avoid this, https->data tranferred will be secure.  
+            educational sites public -> http is okay  
+            -> SSL certification (Secure Socket Layer Certification)  
+            
             ![alt text](<images/SSL.png>)
 
--Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
-- Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay  
- -https://meet.google.com/landing  meet->subdomain, google->maindomain  
- -https://aws.amazon.com/free aws->subdomain, amazon->maindomain  
+Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
+Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay    
+ https://meet.google.com/landing  meet->subdomain, google->maindomain    
+ https://aws.amazon.com/free aws->subdomain, amazon->maindomain  
 
 #### TLD (Top Level Domain)  
 Amazon.uk  
