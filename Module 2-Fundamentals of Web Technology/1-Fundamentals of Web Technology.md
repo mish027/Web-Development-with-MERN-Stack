@@ -55,7 +55,7 @@ URL (Uniform Resource Locator)
             educational sites public -> http is okay  
             -> SSL certification (Secure Socket Layer Certification)  
 
-            ![alt text](<images/SSL.png>)
+![alt text](images/SSL.png)
 
 Server/Domain Name: Unique Identifier(eg:Google,Infosys)  
 Sub-Domain Name: gmeet, gdocs, gdrive, gphotos,Gmail,gpay    
