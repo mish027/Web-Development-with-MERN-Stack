@@ -6,7 +6,7 @@ The Internet is a global network that connects computers all over the world. Whe
 
 Client (Browser / Device)
 
-You type www.google.com in your browser:The browser prepares a request for that page.
+**You type www.google.com in your browser:The browser prepares a request for that page.**
 
 ISP (Internet Service Provider):Your request first goes to your ISP, which gives you access to the internet.
 
