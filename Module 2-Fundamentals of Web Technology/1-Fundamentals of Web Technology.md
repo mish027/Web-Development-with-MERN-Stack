@@ -50,6 +50,7 @@ Protocol:
             educational sites public -> http is okay
             >> SSL certification (Secure Socket Layer Certification)
             ![alt text](<SSL.png>)
+            
 
 
 
