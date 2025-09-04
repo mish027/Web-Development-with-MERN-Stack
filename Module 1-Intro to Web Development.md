@@ -5,12 +5,18 @@ If a client is requesting for a particular webpage that request will go all the 
 ## 🔄 Step-by-Step Flow
 
 Client (Browser)  
+
    ↓  
 ISP (Internet Provider)  
+
    ↓  
+   
 DNS (Finds IP address of website)  
+
    ↓  
+
 Server (Hosts the website)  
+
    ↓  
 Client (Browser displays the page)  
 
