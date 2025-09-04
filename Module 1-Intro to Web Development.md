@@ -1,8 +1,8 @@
-🌐 **How the Internet Works**
+🌐 #How the Internet Works
 
 The Internet is a global network that connects computers all over the world. When you open a website, your computer (client) talks to another computer (server) through the internet. The server stores the website, and your browser displays it.
 
-🔄 **Step-by-Step Flow**
+🔄 ##Step-by-Step Flow
 
 Client (Browser / Device)
 
