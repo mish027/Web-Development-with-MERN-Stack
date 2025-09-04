@@ -6,14 +6,14 @@ Git >> Version Control
     v3  
 new v4  
 
->> -It is distributed (on Cloud)  
->> -Collaboration  
->> -Tracing Changes  
->> -Recovery  
+ -It is distributed (on Cloud)  
+ -Collaboration  
+ -Tracing Changes  
+ -Recovery  
 
 https://git-scm.com/downloads
 
->> For 1st time need to configure github in our system  
+ For 1st time need to configure github in our system  
 git config --global user.name " "  
 git config --global user.email " "  
 
