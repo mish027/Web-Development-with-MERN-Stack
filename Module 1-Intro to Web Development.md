@@ -1,14 +1,14 @@
 # 🌐 How the Internet Works
 
-The Internet is a global network that connects computers all over the world. When you open a website, your computer (client) talks to another computer (server) through the internet. The server stores the website, and your browser displays it.
+If a client is requesting for a particular webpage that request will go all the way round to the server via internet. In response to that request, the server will respond with that particular page that the client has requested for.
 
 ## 🔄 Step-by-Step Flow
 
-1. Client: You type www.google.com in your browser and the browser prepares a request for that page.
+1. Client: You type "www.google.com" in your browser and the browser prepares a request for that page.
 
 2. ISP (Internet Service Provider):Your request first goes to your ISP, which gives you access to the internet.
 
-3. DNS (Domain Name System): DNS converts the website name (www.google.com) into an IP address (like 142.250.190.78).This is necessary because computers understand IP addresses, not names.
+3. DNS (Domain Name System): DNS converts the website name ("www.google.com") into an IP address (like 142.250.190.78).This is necessary because computers understand IP addresses, not names.
 
 4. Server (Web Server):The request is sent to the server that hosts the website.The server processes the request and sends back the webpage data (HTML, CSS, JavaScript).
 
