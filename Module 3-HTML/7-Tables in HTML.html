@@ -6,11 +6,27 @@
     <title>Tables in HTML</title>
 </head>
 <body>
-    <table>
+    <table style="border: solid">
+        <caption>Its my table demonstration</caption>
+        <colgroup>
+        <col span="2" style="background-color:  lightblue;">
+        <col span="3" style="background-color: lightcoral;">
+        </colgroup>
+        <thead>
         <!--tr:table row-->
         <tr>
+            <!--th:table heading, cntrl+alt+down key-->
+            <th>Col-1</th>
+            <th>Col-2</th>  
+            <th>Col-3</th>
+            <th>Col-4</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
             <!--td:table data, td>td*3-->
-            <td>1</td>
+            <td rowspan="3">1</td>
             <td>2</td>
             <td>3</td>
             <td>4</td>
@@ -28,6 +44,25 @@
             <td>11</td>
             <td>12</td>
         </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>abc</td>
+                <td>cde</td>
+                <td>efg</td>
+                <td>hij</td>
+            </tr>
+
+        </tfoot>
+        
+        
     </table>
     
 </body>
