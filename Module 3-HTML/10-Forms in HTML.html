@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="">
+    <!-- <p>first name:</p>paragraph tag is going to take BLOCK scope entire line or block, screen width hence we use label tag -->
+     
+    <label>first name: </label><input minlength="5" maxlength="12" type="text" required/>
+
+    <label for="">last name:</label>
+    <input type="text" required/><br/><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" value="18" required/><!--value: gives default value-->
+    <br/><br/>
+    
+    <label>Email</label>
+    <input type="email"/><br/><br/>
+
+    <label>Password</label>
+    <input type="password" placeholder="password"/><br/><br/>
+
+    <label>Date</label>
+    <input type="date" disabled/><br/><br/>
+
+    <p>Enter shirt size</p><!--to select one option we need to have same name value, radio buttons-->
+    <input type="radio"name="shirtsize" id="small" value="small" ><label for="small">Small Size</label>
+    <input type="radio"name="shirtsize" id="medium" value="medium" checked><label for="medium">Medium Size</label>
+    <input type="radio"name="shirtsize" id="large" value="large"><label for="large">Large Size</label><br/><br/>
+
+    <!--checkbox usage, can select one or more-->
+    <input type="checkbox" name="lan" id="eng" value="eng"><label for="eng">eng</label>
+    <input type="checkbox" name="lan" id="mal" checked value="mal"><label for="mal">mal</label>
+    <br/><br/>
+    
+    <!--value is neccessary when u submit theform-->
+    <label>Please Select color:</label>
+    <input type="color"/><br/><br/>
+    
+    <!--drop down option-->
+    <label>Please select a payment method</label>
+    <select>
+    <option>UPI</option>
+    <option>Net banking</option>
+    <option>Credit Card</option>
+    </select>
+
+    <br/><br/>
+    <label for="cmts">Please provide feedback:</label>
+    <textarea id="cmts" rows="10" cols="20" placeholder="pls enter your comments here"></textarea>
+    <input type="reset">
+    <input type="submit">
+    </form>
+    
+</body>
+</html>
