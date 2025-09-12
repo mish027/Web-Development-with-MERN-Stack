@@ -32,3 +32,14 @@ git config --global user.email " "
     -create a new branch  
     git checkout -b "branchName"  
     git clone gihubrepourl  
+
+## Hosting an application
+create a new repository names "myResumeDemo"
+drag file suppose "index.html"
+settings -> pages 
+deploy from branch
+
+right hand side -> deployment pages ->click on myResumeDemo
+in the repositories -> it will be there
+
+or use netlify
