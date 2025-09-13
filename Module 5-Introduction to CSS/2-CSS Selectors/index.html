@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--
+    >> Element Selector
+    >> ID Selector (always unique)
+    >> Class Selector (inorder to group elements, recommended)
+    >> Universal Selector
+    >> Nested Selector
+    >> Direct Child Selector
+    >> Descendent Selector
+    -->
+    <header>
+        <h1>Selectors in CSS</h1>
+    </header>
+    <main>
+        <article id="elementSel">
+            <h2>Element Selector</h2>
+            <p id="p1Id" class="highlighter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+        </article>
+
+        <article id="idSel">
+             <h2>ID Selector</h2>
+            <p id="pId">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+        </article>
+
+        <article id="classSel">
+             <h2 class="highlighter headingStyles">Class Selector</h2><!--two class names separated by a space-->
+            <p class="p3Class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+        </article>
+        
+        <article id="nestedSel">
+             <h2>Nested Selector</h2>
+            <p id="nestedId" class="nestedClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+        </article>
+
+        <article id="descendentSel">
+             <h2>Descendent Selector</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+             <section>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+             </section>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+            
+        </article>
+
+        <article id="directchildSel">
+             <h2>Direct Child Selector</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+             <section>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis tenetur quae inventore ratione quisquam mollitia, corrupti dicta odio vitae et ipsum cumque maxime? Iusto nisi nam beatae minima, illum assumenda!</p>
+             </section>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, sequi. Dolorem quaerat eos possimus ipsum ratione nam cupiditate doloribus harum?</p>
+            
+        </article>
+            
+    </main>
+    
+</body>
+</html>

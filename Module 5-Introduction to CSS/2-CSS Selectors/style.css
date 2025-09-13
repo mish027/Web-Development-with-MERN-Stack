@@ -1,0 +1,75 @@
+/* Selector Syntax:
+selectorType{
+    propertyKey: propertyValue;
+} 
+Specificity Order->
+
+*/
+
+/* 1. Element Selector */
+p{
+    color: red;
+}
+h2{
+    color:violet;
+    background-color: grey;
+}
+
+/*2. ID Selector */
+#pId{
+    color: aqua;
+}
+#p1Id{
+    font-family: cursive;
+}
+
+
+/* 3. Nested Selector */
+#pId,#p1Id, .highlighter{
+    color:brown;
+}
+
+/*4. Class Selector */
+.p3Class{
+    color:green;
+
+}
+.highlighter{
+    background-color: yellow;
+}
+
+.headingStyles{
+    font-size:large ;
+    color:green;
+}
+/* Specificity Order->ID > Classes > Element*/
+.nestedId{
+    color:green;
+
+}
+.nestedClass{
+    color: red;
+}
+p{
+    color: blue
+} 
+
+/* 5. Universal Selector */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 6.Descendent Selector -> go for parent selector first, then specify tag (child)*/
+#descendentSel p{
+    color:orange;
+}
+
+/* 7.Direct Child Selector */
+#directchildSel > p{
+    color:orange;
+
+}
+
+p:hover{
+    color: green;
+}
