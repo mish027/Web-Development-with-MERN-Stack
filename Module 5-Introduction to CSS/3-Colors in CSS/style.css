@@ -1,0 +1,26 @@
+body{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: end;
+    color:rgba(0, 0, 255, 0.429); 
+    /*4rth arguemnet is opacity/transparency (range:0-1) */
+    color:lightgreen;
+    background-color: black; /*WEBAIM contrast checker, Coolors contrast checker, Trending color pallettte */
+    /* colors in CSS->
+    color: rebeccapurple; named color
+    color: #00a400; hex color
+    color: rgb(214 122 127);    rgba
+    color: hsl(30deg 82% 43%);  hsl-hue, saturation and lightness
+    color: hsl(237deg 74% 33% / 61%);
+    color: hwb(152deg 0% 58% / 70%); hwb-hue,whiteness,blackness*/ 
+}
+
+article{
+    background-color: aliceblue;
+    color:black;
+    font-size: 16px;
+    padding:45px;
+    margin:16px;
+    border-radius: 5%;
+
+}
