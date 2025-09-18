@@ -1,0 +1,21 @@
+main{
+   border: 2px dotted black; /* thickness, kind of border,color of border */
+   /*border-radius: 5% ; smoothness of border */
+   width:50%
+   /* %, vw (view width), vh (view height), px (pixels), em, rm */
+   /* width:50 vw; */
+}
+
+section{
+   border: 4px dotted green;
+   width:70vw;
+   height:150 vh;
+
+}
+
+h2{
+   font-size: 30px;
+   font-size: 2rem;
+em mulitiplies with parent
+rem multiplies with root element
+}
